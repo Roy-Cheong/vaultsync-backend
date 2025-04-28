@@ -1,0 +1,8 @@
+-- CreateTable
+CREATE TABLE "Secret" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "name" TEXT NOT NULL,
+    "value" TEXT NOT NULL,
+    "expiresIn" TEXT NOT NULL,
+    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
